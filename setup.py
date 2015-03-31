@@ -4,7 +4,7 @@ from querySalt import __get_version__
 
 setup(
     name='querySalt',
-    version=__get_version__,
+    version=__get_version__(),
     packages = find_packages( ),
     include_package_data=True,
     install_requires=['requests'],
