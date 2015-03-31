@@ -1,10 +1,9 @@
 from distutils.core import setup
 from setuptools import setup, find_packages
-from querySalt import __get_version__
 
 setup(
     name='querySalt',
-    version=__get_version__(),
+    version=0.002,
     packages = find_packages( ),
     include_package_data=True,
     install_requires=['requests'],
